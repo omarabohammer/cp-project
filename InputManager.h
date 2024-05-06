@@ -5,12 +5,18 @@
 class InputManager : public BookManager {
 
 public:
-	getData() {
+	void getData() {
 		cout << "Type The Department: ";
 		cin >> department;
 
 		cout << "Type the Author: ";
 		cin >> author;
+
+		cout << "Type the title: ";
+		cin >> title;
+
+		cout << "Type the Book ID: ";
+		cin >> bookID;
 	}
 
 };

@@ -4,7 +4,7 @@
 
 class BookManager {
 
-private:
+protected:
 
 	string department;
 	string title;
@@ -80,9 +80,9 @@ public:
 
 		cout << "[ ";
 
-		while (file >> title >> author >> id)
+		while ((!file.eof())
 		{
-			// file >> title >> author >> id;
+			file >> title >> author >> id;
 			cout << title << " , ";
 		}
 		file.close();
