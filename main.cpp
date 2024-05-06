@@ -6,15 +6,6 @@
 using namespace std;
 
 
-class StudentRecordManager { // Not Complete
-	string studentName;
-	string department;
-	int studentID;
-	int bookID;
-
-};
-
-
 int main() {
 
 	BookManager test1("Electronics", "THE DEAD", "AMMAR AYMAN", 235103);
