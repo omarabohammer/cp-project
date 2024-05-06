@@ -11,7 +11,7 @@ int main() {
 	BookManager test1("Electronics", "THE DEAD", "AMMAR AYMAN", 235103);
 	test1.addBook();
 
-	BookManager test2("Electronics", "BRUH", "OMAR AYMAN", 56187);
+	BookManager test2("Electronics", "BRUH", "Sameh", 56187);
 	test2.addBook();
 
 	BookManager test3("Electronics", "NIGGA", "WHAAT", 219561);
