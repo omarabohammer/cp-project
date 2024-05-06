@@ -3,6 +3,13 @@
 #include <fstream>
 #include "BookManager.h"
 
+// How to use GitHub
+// git status
+// git add "name of file"
+// git commit -m "Decription of what you did"
+// git push origin main
+
+
 using namespace std;
 
 
